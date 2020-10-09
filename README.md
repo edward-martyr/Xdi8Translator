@@ -5,7 +5,7 @@ A multiway Xdi8 Translator.
 ## Installation
 
 ```bash
-python3 -m pip install Xdi8Translator
+pip install Xdi8Translator
 ```
 
 ## Usage

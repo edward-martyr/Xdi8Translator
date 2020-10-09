@@ -17,7 +17,7 @@ class Translator():
                     text=text.replace(fro,' '+to)
                 else:
                     text=text.replace(fro,to)
-                text=text[1:]
+            text=text[1:]
         text=text.replace('\n ','\n')
         text=text.replace('( ',' (')
         return text
