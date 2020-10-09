@@ -29,4 +29,5 @@ hanzi='''我一个人，在轻轻闲着，一个没有名字的光棍，杳杳�
 
 print(translator.tidai2xdi8(tidai))
 print(translator.hanzi2xdi8(hanzi))
+print(translator.hanzi2xdi8(hanzi, fenci=False))
 ```

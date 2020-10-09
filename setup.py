@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name='Xdi8Translator',
-    version='0.0.4',
+    version='0.0.5',
     description='Multiway Xdi8 Translator',
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -14,5 +14,6 @@ setuptools.setup(
     author_email='edwardmartyr@outlook.com',
     license='MIT',
     packages=setuptools.find_packages(),
+    install_requires=['jieba'],
     zip_safe=False
 )
