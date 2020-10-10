@@ -27,3 +27,18 @@ class Translator():
         for fro, to in tidai2xdi8_dict.items():
             text=text.replace(fro,to)
         return text
+    
+    def xdi82kana(self, text):
+        start=end=0
+        textlist=[]
+        while end<=len(text):
+            if text[start] not in allxdi8:
+                textlist.append(text[start])
+                start+=1
+                end+=1
+            else:
+                while text[start:end+1] in xdi82kana_dict and end<len(text)+2:
+                    end+=1
+                textlist.append(xdi82kana_dict[text[start:end]])
+                start=end
+        return ''.join(textlist)
