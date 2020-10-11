@@ -27,7 +27,11 @@ li 6xa fa 7人i bxz 刀 B θmi з。'''
 
 hanzi='''我一个人，在轻轻闲着，一个没有名字的光棍，杳杳深深，默默无闻，在陌生的桥头，遇见雨中散心的丽人，心里刹那，我爱丽人，拥抱我吧！煞去我的光棍，让我和甜蜜的你，偶然相吻。'''
 
+xdi8="xE di8"
+
 print(translator.tidai2xdi8(tidai))
 print(translator.hanzi2xdi8(hanzi))
 print(translator.hanzi2xdi8(hanzi, fenci=False))
+print(translator.xdi82kana(xdi8))
+print(translator.xdi82tidai(xdi8))
 ```

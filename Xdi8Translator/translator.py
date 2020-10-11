@@ -44,3 +44,9 @@ class Translator():
                 tmp+=text[start]
                 text=text[1:]
         return tmp
+    
+    def xdi82tidai(self, text):
+        text=text.replace('⇧','')
+        for fro, to in xdi82tidai_dict.items():
+            text=text.replace(fro,to)
+        return text
