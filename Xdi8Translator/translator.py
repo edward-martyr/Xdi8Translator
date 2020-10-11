@@ -29,16 +29,18 @@ class Translator():
         return text
     
     def xdi82kana(self, text):
-        start=end=0
-        textlist=[]
-        while end<=len(text):
-            if text[start] not in allxdi8:
-                textlist.append(text[start])
-                start+=1
-                end+=1
-            else:
-                while text[start:end+1] in xdi82kana_dict and end<len(text)+2:
+        text=text.replace('⇧','')
+        start=0;end=2
+        tmp=''
+        while len(text) > 0:
+            if text[start] in allxdi8:
+                if text[start:end] in xdi82kana_dict  and not end>len(text):
                     end+=1
-                textlist.append(xdi82kana_dict[text[start:end]])
-                start=end
-        return ''.join(textlist)
+                    continue
+                tmp+=xdi82kana_dict[text[start:end-1]]
+                text=text[end-1:]
+                start=0;end=2
+            else:
+                tmp+=text[start]
+                text=text[1:]
+        return tmp
