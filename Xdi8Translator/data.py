@@ -3078,7 +3078,7 @@ hanzi2xdi8_dict={
     '锞': 'kieN', 
     '稞': 'kieh', 
     '髁': 'kiej', 
-    '窠': 'kiuf', 
+    '窠': 'kief', 
     '堁': 'kied', 
     '敤': 'kie7', 
     '戏': 'kE', 
