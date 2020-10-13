@@ -8179,7 +8179,7 @@ hanzi2xdi8_dict={
     '时': 'HoH', 
     '莳': 'Hoy', 
     '十': 'Huo', 
-    '汁': 'HEuo', 
+    '汁': 'EHuo', 
     '什': 'VHuo', 
     '针': 'NHuo', 
     '叶': 'diey', 
