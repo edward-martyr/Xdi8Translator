@@ -9279,8 +9279,7 @@ xdi82tidai_dict={
     '5': 'ꝇ', 
     'F': 'ߔ', 
     'T': 'ɵ',
-    'V': 'ʎ',
-    'N': 'ꝇ'
+    'V': 'ʎ'
 }
 
 allxdi8=list(set(''.join([k for k in xdi82kana_dict])))
