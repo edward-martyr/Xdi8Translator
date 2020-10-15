@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name='Xdi8Translator',
-    version='0.3.0',
+    version='0.3.1',
     description='Multiway Xdi8 Translator',
     long_description=long_description,
     long_description_content_type="text/markdown",
