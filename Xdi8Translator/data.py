@@ -1,4 +1,4 @@
-hanzi2xdi8_dict={
+hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhuanlan.zhihu.com/p/263035854
     '着':'TyuT', # 增補漢字
     '耳':'re', 
     '身':'rue', 
@@ -8675,7 +8675,7 @@ tidai2xdi8_dict={
     'θ': 'T'
 }
 
-xdi82kana_dict = {
+xdi82kana_dict = { # Raymond https://zhuanlan.zhihu.com/p/262483771
     'b': 'ボ',
     'p': 'ポ',
     'm': 'モ',
@@ -9281,7 +9281,7 @@ xdi82tidai_dict={
     'V': 'ʎ'
 }
 
-xdi82IPA_dict={
+xdi82IPA_dict={ # unt https://zhuanlan.zhihu.com/p/264952744
     'ba': 'pa',
     'bo': 'po',
     'be': 'pe',
