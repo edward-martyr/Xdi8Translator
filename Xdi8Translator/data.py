@@ -6390,6 +6390,7 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '芴': 'yw8', 
     '温': 'w8E', 
     '搵': 'w88', 
+    '揾': 'w88', # 類推
     '瘟': 'w8t', 
     '文': 'wi8', 
     '纹': 'awi8', 
