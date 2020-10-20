@@ -681,7 +681,7 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '瘼': 'tmo',
     '齑': 'rk1',
     '羰': 'g7Y',
-    '𥻗': 'hzua', # TODO: 似应作 zuah # Nyoeghau: 老黃講是hzua
+    '𥻗': 'zuah', # TODO: 似应作 zuah # Nyoeghau: 老黃確認了是zuah
     '糅': 'hr6',
     '熜': 'xDu3',
     '潟': 'xoEH',
