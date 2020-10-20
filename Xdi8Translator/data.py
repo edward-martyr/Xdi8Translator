@@ -855,6 +855,15 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '躞': '4uYD',
     '纛': 'udiA',
     '爨': '5i3xc',
+    '矻': 'ges',
+    '𠲎': 'oha', # 伐類推。hao 已有字
+    '贱': 'B6H',
+    '陬': 'r61',
+    '饵': 'Lre',
+    '嘱': 'kTTp',
+    '揳': '8qV',
+    '揠': 'yo8',
+    '矍': 'NieH',
     '，':',', # 标点符号
     '。':'.', 
     '！': '!', 
@@ -6389,6 +6398,7 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '芴': 'yw8', 
     '温': 'w8E', 
     '搵': 'w88', 
+    '揾': 'w88', # 類推
     '瘟': 'w8t', 
     '文': 'wi8', 
     '纹': 'awi8', 
