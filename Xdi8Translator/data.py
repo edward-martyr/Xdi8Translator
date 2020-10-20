@@ -10,7 +10,7 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '耨':'7rua', 
     '卉': 'thuV',
     '闪': 'Vm',
-    '扩': '8ciT', # '商': 'ciTH', 据'犷': 'vciT', 
+    '扩': '8ciT',
     '朽': 'wiac',
     '早': 'ruL',
     '吸': 'oNa',
@@ -46,7 +46,7 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '周': 'ru6',
     '净': 'Ni8E',
     '闸': 'jam',
-    '券': 'quol', # '圈': 'quom'
+    '券': 'quol',
     '宠': 'fl3',
     '宙': 'ru6f',
     '帚': 'sL',
@@ -86,7 +86,7 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '豺': 'vDY',
     '料': 'hd6',
     '悯': 'Ylio',
-    '被': 'biVu1', # 《对照表》作 biuV1，暂据“北”biV、“苝”ybiV、“倍”biVV 等改。似亦可作 biVu
+    '被': 'bi1u',
     '谆': 'B3i',
     '剥': 'llA',
     '菩': 'piVy',
@@ -123,7 +123,7 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '感': 'Ff6',
     '碗': 'swi2',
     '嗜': 'NiLo',
-    '跷': 'qiL8', # TODO: 应作 qiLD
+    '跷': 'qiLD',
     '鼠': 'lieH',
     '滚': 'B8E',
     '摔': '8suY',
@@ -134,7 +134,7 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '锹': 'Nqu6',
     '稳': 'hnuo',
     '橄': 'gic', # TODO: 应作 gi2c，但与“榦、檊”同音
-    '嘱': 'kTTp', # TODO: 应作 kTop
+    '嘱': 'kTop',
     '额': 'cerf',
     '擎': 'jki8',
     '橘': 'tiYc',
@@ -174,7 +174,7 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '芑': 'qEy',
     '芎': 'yq3',
     '亘': 'gi8H',
-    '夼': 'fgiV', #'川': 'giV', '钏': 'NgiV',
+    '夼': 'fgiV',
     '尥': 'hsuL',
     '曳': '5ieH',
     '屺': 'qEw',
@@ -324,7 +324,7 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '弭': 'lre',
     '牁': 'pkie',
     '姮': 'f6A',
-    '骁': 'gqiL', # TODO: 似应作 qiLg
+    '骁': 'qiLg',
     '骈': 'pi8g',
     '挈': 'jqV',
     '珥': '3re',
@@ -411,7 +411,7 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '桫': 'suoEc',
     '豉': 'hHua',
     '硭': 'mTsy',
-    '硗': 'sqiL', # TODO: 似应作 qiLs
+    '硗': 'qiLs',
     '硇': 'sDu3',
     '殍': 't4iT',
     '雩': 'wia6',
@@ -444,7 +444,7 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '猞': 'ruev',
     '馃': 'kieL',
     '痍': 'yEt',
-    '阇': 'm7ie', # 《对照表》作 7iem，与“阗”7iem 冲突，据“赭”h7ie 改
+    '阇': 'm7ie',
     '阏': '76m',
     '羟': 'F3g',
     '粝': 'hvY',
@@ -567,7 +567,7 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '稗': 'hbV',
     '稔': 'hnu2',
     '敫': 'juLH',
-    '徭': 'yLV', # 侥	VyuL '摇': 'yL8', 
+    '徭': 'yLV',
     '毹': 'j7o',
     '貉': 'vgie',
     '腧': 'e7o',
@@ -681,7 +681,7 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '瘼': 'tmo',
     '齑': 'rk1',
     '羰': 'g7Y',
-    '𥻗': 'hzua', # TODO: 似应作 zuah
+    '𥻗': 'zuah',
     '糅': 'hr6',
     '熜': 'xDu3',
     '潟': 'xoEH',
@@ -1332,7 +1332,7 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '弌': '7NV', 
     '医': 'NiV', 
     '翌': 'NVf', 
-    '勚': 'xlno', #'xno', '贳': 'xno',
+    '勚': 'xlno', # 《对照表》作 xno，与“贳”xno 冲突，改
     '西': '5a', 
     '硒': 's5a', 
     '茜': 'y5a', 
@@ -1446,7 +1446,7 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '袭': '3yE', 
     '唽': 'o5io', 
     '樨': 'c56', 
-    '徙': '556H', 
+    '徙': '56H', 
     '傒': 'V5i6', 
     '嬆': '5ioA', 
     '屣': '56p', 
@@ -2102,7 +2102,7 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '樑': 'vTcc', 
     '两': 'viT', 
     '辆': 'qviT', 
-    '俩': '1viT', 
+    '俩': 'VviT', 
     '魉': 'tviT', 
     '亮': 'viTH', 
     '喨': 'viTo', 
@@ -2431,8 +2431,8 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '橙': 'cd8', 
     '墱': 'dd8', 
     '鼎': 'd8H', 
-    '订': 'idi8', #
-    '顶': 'rdi8', #
+    '订': 'idi8', 
+    '顶': 'rdi8', 
     '丁': 'di8', 
     '盯': 'Tdi8', 
     '叮': 'odi8', 
@@ -3137,7 +3137,7 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '淟': '7eE', 
     '晪': '7eb', 
     '者': '7ie', 
-    '锗': 'N7e', 
+    '锗': 'N7ie', 
     '赭': 'h7ie', 
     '谪': 'ruYi', 
     '褶': 'u7ie', 
@@ -3641,8 +3641,8 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '圳': 'dgiV', 
     '轨': 'giVh', 
     '匦': 'giVm', 
-    '乖': 'guY', 
-    '冠': 'gu2', 
+    '乖': 'guY', # 无声旁，用模拟音
+    '冠': 'gu2', # 无声旁，用模拟音
     '蛊': '4ci3', 
     '瓜': 'Ba', 
     '胍': 'eBa', 
@@ -4481,7 +4481,7 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '郝': 'hE1', 
     '赤': 'hEH', 
     '赦': 'hEr', 
-    '剨': 'lh1', #
+    '剨': 'lh1', 
     '湱': 'Eh1', 
     '酣': 'h14', 
     '邯': 'h11', 
@@ -4697,7 +4697,7 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '浍': 'EhiV', 
     '华': 'fa', 
     '哗': 'ofa', 
-    '桦': 'cfa', # 《对照表》（上）此音漏字，《对照表》（下）重收
+    '桦': 'cfa', # 《对照表》本表此音漏字，增补表重收
     '铧': 'Nfa',
     '骅': 'gfa', 
     '嬅': 'Afa', 
@@ -5251,7 +5251,7 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '铎': '5iYN', 
     '忑': 'Fxa', 
     '疼': 'tdi3', 
-    '套': 'ftuL', 
+    '套': 'ftuL', # 无声旁，用模拟音
     '研': 'skY', 
     '妍': 'AkY', 
     '团': 'mzu2', 
@@ -5311,7 +5311,7 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '辟': 'pa', 
     '扁': 'pi2', 
     '半': 'biT', 
-    '宾': 'fbi8', # bi8嫔': 'Afbi8'
+    '宾': 'bi8', 
     '并': 'bi3', 
     '北': 'biV', 
     '叵': 'po', 
@@ -5444,7 +5444,7 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '標': 'biLc', 
     '标': 'biLc', 
     '摽': 'biL8', 
-    '檦': 'biL8c', # TODO: 似应作 biL8l
+    '檦': 'biLcl', # 《对照表》作 biL8c，部首有误，改
     '瘭': 'tpiL', 
     '熛': 'biLx', 
     '磦': 'biLs', 
@@ -5588,7 +5588,7 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '悲': 'bi3F', 
     '琲': 'bi33', 
     '棑': 'pYc', 
-    '兵': 'bi8', 
+    '兵': 'Hbi8', 
     '殡': 'tbi8', 
     '滨': 'Ebi8', 
     '鬓': 'jbi8', 
@@ -5643,7 +5643,7 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '埠': 'dbiA', 
     '逋': 'zbiA', 
     '埔': 'pAd', 
-    '卜': 'H', # 《对照表》（上）音作 biA，因 biA 已有“阜”字，不取此音。《对照表》（下）重收，音作 H
+    '卜': 'piA', # 《对照表》有 biA、piA 两音，因 biA 已有“阜”字，取 piA
     '哺': 'bAo', 
     '卟': 'biAo', 
     '吥': 'obA', 
@@ -5663,7 +5663,7 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '噼': 'opa', 
     '䴙': 'npa', 
     '爬': 'paj', 
-    '耙': 'pa7', # 《对照表》（上）此音漏字，《对照表》（下）重收
+    '耙': 'pa7', # 《对照表》本表此音漏字，增补表重收
     '葩': 'pay', 
     '琶': 'pa33', 
     '杷': 'pac', 
@@ -7526,7 +7526,7 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '崵': 'yTw', 
     '因': 'y8', 
     '茵': 'yy8', 
-    '姻': 'Ay8', # 《对照表》（上）此音漏字，《对照表》（下）重收
+    '姻': 'Ay8', # 《对照表》本表此音漏字，增补表重收
     '铟': 'Ny8', 
     '洇': 'Ey8', 
     '凐': 'EHy8', 
@@ -7988,7 +7988,7 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '烖': 'zYx', 
     '傤': 'zYV', 
     '渽': 'zYE', 
-    '賳': 'zYxl', # TODO: 似应作 zYxo
+    '賳': 'zYxo', # 《对照表》作 zYxl，部首有误，改
     '宅': 'zuY', 
     '咤': 'ozuY', 
     '挓': '8zuY', 
@@ -8099,14 +8099,14 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '慞': 'zTY', 
     '瞕': 'zTT', 
     '庄': 'zuT', 
-    '脏': 'ezuT', # 《对照表》（上）此音漏字，《对照表》（下）重收
+    '脏': 'ezuT', # 《对照表》本表此音漏字，增补表重收
     '桩': 'czuT', 
     '粧': 'hzuT', 
     '妆': 'zuTA', 
     '装': 'zuTu', 
     '壮': 'zuTd', 
     '状': 'zuTv', 
-    '娤': 'zuTdl', # TODO: 似应作 zuTdA
+    '娤': 'zuTdA', # 《对照表》作 zuTdl，部首有误，改
     '赃': 'xzuT', 
     '奘': 'zuTf', 
     '弉': 'zuTt', 
@@ -8185,7 +8185,7 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '祽': 'uzuV', 
     '睟': 'TzuV', 
     '璻': '3zuV', 
-    '濢': 'DuVEn', # '淬': 'DuVE','膵': 'DuVey',
+    '濢': 'DuVEn', # 《对照表》作 DuVE，与“淬”DuVE 冲突，据“膵”DuVey 改
     '錊': 'NzuV', 
     '卒': 'DuVH', 
     '箤': '2zuV', 
@@ -8264,7 +8264,7 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '侧': 'VDe', 
     '厕': '5De', 
     '恻': 'YDe', 
-    '箣': 'Hue28', # TODO: 似应作 Hue2l
+    '箣': 'Hue2l', # 《对照表》作 Hue28，部首有误，改
     '萴': 'yDe', 
     '撤': 'De8', 
     '彻': 'DeV', 
@@ -8581,7 +8581,7 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '睃': 'soT', 
     '塑': 'dsuo', 
     '朔': 'suo', 
-    '蒴': 'ysuo', # 《对照表》（上）此音漏字，《对照表》（下）重收
+    '蒴': 'ysuo', # 《对照表》本表此音漏字，增补表重收
     '槊': 'csuo', 
     '愬': '5suo', 
     '搠': '8suo', 
@@ -9270,7 +9270,7 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '螆': 'HVk', 
     '礠': 'HVsF', 
     '辝': 'HuV4', 
-    '次': 'HuV', #
+    '次': 'HuV', 
     '瓷': '7HuV', 
     '茨': 'yHuV', 
     '垐': 'dHuV', 
