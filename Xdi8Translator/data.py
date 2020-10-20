@@ -856,6 +856,7 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '纛': 'udiA',
     '爨': '5i3xc',
     '矻': 'ges',
+    '𠲎': 'oha', # 伐類推。hao 已有字
     '，':',', # 标点符号
     '。':'.', 
     '！': '!', 
