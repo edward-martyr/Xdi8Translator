@@ -864,6 +864,16 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '揳': '8qV',
     '揠': 'yo8',
     '矍': 'NieH',
+    '铽': 'N7e',
+    '锘': 'ruoN',
+    '镄': 'fVN',
+    '锿': 'N4iY',
+    '钷': 'Npo',
+    '铹': 'lLN',
+    '钆': 'zaN',
+    '镤': 'piAN',
+    '镎': 'haN',
+    '㑚': 'Vna', # 那類推
     '，':',', # 标点符号
     '。':'.', 
     '！': '!', 
