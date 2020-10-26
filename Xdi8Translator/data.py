@@ -236,7 +236,7 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '苘': 'ju3y',
     '茌': 'nu6Vy',
     '茓': 'yxuY',
-    '茀': 'y41L',
+    '茀': 'y41L', #弗4iL，应为y4iL？
     '枇': 'pEc',
     '枧': 'cjV',
     '枨': 'BiTc',
