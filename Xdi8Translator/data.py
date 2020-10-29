@@ -1,5 +1,6 @@
 hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhuanlan.zhihu.com/p/263035854
     '着':'TyuT', # 增補漢字
+    '纟火':'aho', # 语言名，xdi8 Aho
     '耳':'re', 
     '身':'rue', 
     '舍':'rueH', 
@@ -736,7 +737,7 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '癃': 'tli3',
     '瘳': 'mi6t',
     '麇': 'hvio',
-    '麈': 'dvio',
+    '麈': 'dvio', # 和”尘“同形，建议改为dka
     '糗': 'xu6h',
     '燠': 'x4L',
     '褰': 'q2u',
@@ -7635,7 +7636,7 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '剌': 'nual', 
     '揦': 'nua8', 
     '喇': 'nuao', 
-    '思': 'suYH', 
+    '思': 'suYH', #应为nua？
     '偲': 'Vnua', 
     '锶': 'Nnua', 
     '缌': 'anua', 
