@@ -9550,7 +9550,8 @@ tidai2xdi8_dict={
     '╕': 'F', 
     'θ': 'T',
     '日': 'T',
-    'ɵ': 'T'
+    'ɵ': 'T',
+    'Θ': 'T'
 }
 
 xdi82kana_dict = { # Raymond https://zhuanlan.zhihu.com/p/262483771
