@@ -23,24 +23,6 @@ class Translator():
             text=text.replace(punct+' ',' '+punct)
         return text
 
-    def xdi82hanzi(self,text):
-        ltext = lcut(text)
-        res = []
-        for word in ltext:
-            in_table = False
-            for fro, to in hanzi2xdi8_dict.items():
-                if word == to:
-                    res.append(fro)
-                    in_table = True
-                    break
-            if not in_table:
-                res.append(word)
-        text = ''.join(res).replace(' ','')
-        text = text.replace('\n ', '\n')
-        for punct in ['(', '[', '"', "'", '{']:
-            text = text.replace(punct + ' ', ' ' + punct)
-        return text
-    
     def tidai2xdi8(self, text):
         for fro, to in tidai2xdi8_dict.items():
             text=text.replace(fro,to)
