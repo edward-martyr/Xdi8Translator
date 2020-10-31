@@ -25,7 +25,7 @@ class Translator():
             text=text.replace(punct+' ',' '+punct)
         return text
 
-    def xdi82hanzi(self,text, fenci=False, chaos=False): #fenci：希顶语原文是否分词连写；chaos：原文空格是否混乱
+    def xdi82hanzi(self,text, fenci=True, chaos=False): #fenci：希顶语原文是否分词连写；chaos：原文空格是否混乱
         if fenci:
             jieba.load_userdict('newdic.txt')
         if chaos:
@@ -33,15 +33,13 @@ class Translator():
 
         ltext = lcut(text)
         res = []
-        for word in ltext:
-            in_table = False
+        for xdi8 in ltext:
+            word = xdi8
             for fro, to in hanzi2xdi8_dict.items():
-                if word == to:
-                    res.append(fro)
-                    in_table = True
+                if xdi8 == to:
+                    word = fro
                     break
-            if not in_table:
-                res.append(word)
+            res.append(word)
         text = ''.join(res).replace(' ', '')
         text = text.replace('\n ', '\n')
         for punct in ['(', '[', '"', "'", '{']:
