@@ -1,3 +1,7 @@
 build
 dist
 Xdi8Translator.egg-info
+/.idea/
+/Xdi8Translator/test.py
+/Xdi8Translator/newdic.txt
+/Xdi8Translator/build_dict.py
