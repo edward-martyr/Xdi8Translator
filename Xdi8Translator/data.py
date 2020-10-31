@@ -737,7 +737,7 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '癃': 'tli3',
     '瘳': 'mi6t',
     '麇': 'hvio',
-    '麈': 'dvio', # 和”尘“同形，建议改为dka
+    '麈': 'dvio', # 和”尘“同形，建议改为vka
     '糗': 'xu6h',
     '燠': 'x4L',
     '褰': 'q2u',
