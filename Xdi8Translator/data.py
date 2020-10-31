@@ -1,6 +1,6 @@
 hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhuanlan.zhihu.com/p/263035854
+    '纟火': 'aho',  # 语言名，xdi8 Aho
     '着':'TyuT', # 增補漢字
-    '纟火':'aho', # 语言名，xdi8 Aho
     '耳':'re', 
     '身':'rue', 
     '舍':'rueH', 
@@ -158,8 +158,8 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '簿': 'bioE2',
     '瓣': 'BEh',
     '籍': 'NY27',
-    '矗': '3H6',
-    '孓': 'jeVH',
+    '矗': '3H6', # 一级汉字结束
+    '孓': 'jeVH', # 二级汉字开始
     '丏': 'mieH',
     '夬': 'jueH',
     '爿': 'ppi2',
