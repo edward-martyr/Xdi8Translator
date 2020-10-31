@@ -1,5 +1,7 @@
 from .data import *
 from jieba import lcut
+import jieba
+
 
 class Translator():
     def hanzi2xdi8(self, text, fenci=True):
@@ -23,7 +25,12 @@ class Translator():
             text=text.replace(punct+' ',' '+punct)
         return text
 
-    def xdi82hanzi(self,text):
+    def xdi82hanzi(self,text, fenci=False, chaos=False): #fenci：希顶语原文是否分词连写；chaos：原文空格是否混乱
+        if fenci:
+            jieba.load_userdict('newdic.txt')
+        if chaos:
+            text = text.replace(' ','')
+
         ltext = lcut(text)
         res = []
         for word in ltext:
@@ -35,7 +42,7 @@ class Translator():
                     break
             if not in_table:
                 res.append(word)
-        text = ''.join(res).replace(' ','')
+        text = ''.join(res).replace(' ', '')
         text = text.replace('\n ', '\n')
         for punct in ['(', '[', '"', "'", '{']:
             text = text.replace(punct + ' ', ' ' + punct)
