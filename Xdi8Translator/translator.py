@@ -27,7 +27,7 @@ class Translator():
 
     def xdi82hanzi(self,text, fenci=True, chaos=False): #fenci：希顶语原文是否分词连写；chaos：原文空格是否混乱
         if fenci:
-            jieba.load_userdict('newdic.txt')
+            jieba.load_userdict('chardic.txt')
         if chaos:
             text = text.replace(' ','')
 
