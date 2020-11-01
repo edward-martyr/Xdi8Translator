@@ -1,7 +1,7 @@
 from .data import *
 from jieba import lcut
 import jieba
-import re
+
 
 class Translator():
     def hanzi2xdi8(self, text, fenci=True):
@@ -32,23 +32,29 @@ class Translator():
         segments = []
         for word in ltext:
             segments.append(word)
-        print(segments)
-        for s in segments:
-            han = self.xdi82hanzi(s, mode='fenci')
-            print(han)
         return segments
 
-    def xdi82hanzi(self, text, mode='default'): #fenci：希顶语原文是否分词连写；chaos：原文空格是否混乱
-        if mode == 'chaos':
+    def xdi82hanzi(self, text, mode='fenci'):  # fenci：希顶语原文是否分词/字连写；chaos：原文空格是否混乱
+        if mode == 'chaos':  # 混沌模式下，需先对混乱希顶文本去空格然后分词，接着对分词后的希顶文本进行“分字”
             text = text.replace(' ','')
             text = self.xdi8fenci(text)
+            jieba.set_dictionary('charfreq.txt')
+            res = []
             for word in text:
-                han = self.xdi82hanzi(word, mode='fenci')
-                print(han)
-                pass
+                lchar = lcut(word)
+                l = []
+                for xdi8 in lchar:
+                    s = xdi8
+                    for fro, to in hanzi2xdi8_dict.items():
+                        if xdi8 == to:
+                            s = fro
+                            break
+                    l.append(s)
+                res.append(''.join(l))
+
         else:
-            if mode == 'fenci':
-                jieba.load_userdict('chardic.txt')
+            # if mode == 'fenci':
+            jieba.load_userdict('charfreq.txt')
             ltext = lcut(text)
             # print(ltext)
             res = []
@@ -59,8 +65,8 @@ class Translator():
                         s = fro
                         break
                 res.append(s)
-            text = ''.join(res).replace(' ', '').replace('-','')
 
+        text = ''.join(res).replace(' ', '').replace('-','')
         text = text.replace('\n ', '\n')
         for punct in ['(', '[', '"', "'", '{']:
             text = text.replace(punct + ' ', ' ' + punct)
