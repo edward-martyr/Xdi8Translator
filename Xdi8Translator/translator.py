@@ -1,7 +1,7 @@
 from .data import *
 from jieba import lcut
 import jieba
-
+import re
 
 class Translator():
     def hanzi2xdi8(self, text, fenci=True):
@@ -25,22 +25,42 @@ class Translator():
             text=text.replace(punct+' ',' '+punct)
         return text
 
-    def xdi82hanzi(self,text, fenci=True, chaos=False): #fenci：希顶语原文是否分词连写；chaos：原文空格是否混乱
-        if fenci:
-            jieba.load_userdict('chardic.txt')
-        if chaos:
-            text = text.replace(' ','')
-
+    def xdi8fenci(self, text):
+        jieba.load_userdict('xdi8words.txt')
+        text = text.replace(' ', '')
         ltext = lcut(text)
-        res = []
-        for xdi8 in ltext:
-            word = xdi8
-            for fro, to in hanzi2xdi8_dict.items():
-                if xdi8 == to:
-                    word = fro
-                    break
-            res.append(word)
-        text = ''.join(res).replace(' ', '')
+        segments = []
+        for word in ltext:
+            segments.append(word)
+        print(segments)
+        for s in segments:
+            han = self.xdi82hanzi(s, mode='fenci')
+            print(han)
+        return segments
+
+    def xdi82hanzi(self, text, mode='default'): #fenci：希顶语原文是否分词连写；chaos：原文空格是否混乱
+        if mode == 'chaos':
+            text = text.replace(' ','')
+            text = self.xdi8fenci(text)
+            for word in text:
+                han = self.xdi82hanzi(word, mode='fenci')
+                print(han)
+                pass
+        else:
+            if mode == 'fenci':
+                jieba.load_userdict('chardic.txt')
+            ltext = lcut(text)
+            # print(ltext)
+            res = []
+            for xdi8 in ltext:
+                s = xdi8
+                for fro, to in hanzi2xdi8_dict.items():
+                    if xdi8 == to:
+                        s = fro
+                        break
+                res.append(s)
+            text = ''.join(res).replace(' ', '').replace('-','')
+
         text = text.replace('\n ', '\n')
         for punct in ['(', '[', '"', "'", '{']:
             text = text.replace(punct + ' ', ' ' + punct)
