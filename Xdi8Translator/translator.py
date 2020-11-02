@@ -2,7 +2,6 @@ from .data import *
 from jieba import lcut
 import jieba
 
-
 class Translator():
     def hanzi2xdi8(self, text, fenci=True):
         if fenci:
