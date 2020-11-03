@@ -10343,7 +10343,6 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '齇': 'jhiL',
     '觿': '75iem'
 }
-}
 
 tidai2xdi8_dict={
     '，': ', ', 
