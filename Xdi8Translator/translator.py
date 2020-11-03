@@ -1,5 +1,6 @@
 from .data import *
 from jieba import lcut
+import jieba
 
 class Translator():
     def hanzi2xdi8(self, text, fenci=True):
@@ -21,6 +22,53 @@ class Translator():
         text=text.replace('\n ','\n')
         for punct in ['(','[','"',"'",'{']:
             text=text.replace(punct+' ',' '+punct)
+        return text
+
+    def xdi8fenci(self, text):
+        jieba.load_userdict('xdi8words.txt')
+        text = text.replace(' ', '')
+        ltext = lcut(text)
+        segments = []
+        for word in ltext:
+            segments.append(word)
+        return segments
+
+    def xdi82hanzi(self, text, mode='fenci'):  # fenci：希顶语原文是否分词/字连写；chaos：原文空格是否混乱
+        if mode == 'chaos':  # 混沌模式下，需先对混乱希顶文本去空格然后分词，接着对分词后的希顶文本进行“分字”
+            text = text.replace(' ','')
+            text = self.xdi8fenci(text)
+            jieba.set_dictionary('charfreq.txt')
+            res = []
+            for word in text:
+                lchar = lcut(word)
+                l = []
+                for xdi8 in lchar:
+                    s = xdi8
+                    for fro, to in hanzi2xdi8_dict.items():
+                        if xdi8 == to:
+                            s = fro
+                            break
+                    l.append(s)
+                res.append(''.join(l))
+
+        else:
+            # if mode == 'fenci':
+            jieba.load_userdict('charfreq.txt')
+            ltext = lcut(text)
+            # print(ltext)
+            res = []
+            for xdi8 in ltext:
+                s = xdi8
+                for fro, to in hanzi2xdi8_dict.items():
+                    if xdi8 == to:
+                        s = fro
+                        break
+                res.append(s)
+
+        text = ''.join(res).replace(' ', '').replace('-','')
+        text = text.replace('\n ', '\n')
+        for punct in ['(', '[', '"', "'", '{']:
+            text = text.replace(punct + ' ', ' ' + punct)
         return text
     
     def tidai2xdi8(self, text):
