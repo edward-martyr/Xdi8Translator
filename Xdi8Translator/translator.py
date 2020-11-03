@@ -22,7 +22,7 @@ class Translator():
         for punct in ['(','[','"',"'",'{']:
             text=text.replace(punct+' ',' '+punct)
         return text
-    
+
     def tidai2xdi8(self, text):
         for fro, to in tidai2xdi8_dict.items():
             text=text.replace(fro,to)
