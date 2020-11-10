@@ -28,6 +28,16 @@ class Translator():
             text=text.replace(fro,to)
         return text
     
+    def xdi82hanxie(self, text):
+        for fro, to in xdi82hanxie_dict.items():
+            text=text.replace(fro,to)
+        return text
+
+    def hanxie2xdi8(self, text):
+        for fro, to in xdi82hanxie_dict.items():
+            text=text.replace(to,fro)
+        return text
+    
     def xdi82kana(self, text):
         text=text.replace('⇧','')
         start=0;end=2
