@@ -12082,7 +12082,7 @@ xdi82IPA_dict={ # unt https://zhuanlan.zhihu.com/p/264952744
     'i': 'ji'
 }
 
-xdi82hanxiedict = {
+xdi82hanxie_dict = {
     'b': '夕',
     'p': '尸',
     'm': '巾',
