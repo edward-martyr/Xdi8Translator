@@ -76,5 +76,5 @@ class Translator():
         for result in xdi8words[::-1]:
             if result[1] in hanzvalues:
                 char=hanzkeys[hanzvalues.index(result[1])]
-                text=text[:result[0]]+char+text[result[1]:]
+                text=text[:result[0][0]]+char+text[result[0][1]:]
         return text
