@@ -237,7 +237,7 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '苘': 'ju3y',
     '茌': 'nu6Vy',
     '茓': 'yxuY',
-    '茀': 'y41L', #弗4iL，应为y4iL？
+    '茀': 'y4iL', #弗4iL，应为y4iL？
     '枇': 'pEc',
     '枧': 'cjV',
     '枨': 'BiTc',
@@ -3634,7 +3634,7 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '功': 'lg3', 
     '汞': '6g3', 
     '贡': 'xg3', 
-    '觥': '7TB', 
+    '觥': '7BT', #光=BT，7是部首，应为7BT
     '红': 'h3a', 
     '唝': 'oxg3', 
     '弓': 'g3H', 
