@@ -12049,14 +12049,14 @@ xdi82IPA_dict={ # unt https://zhuanlan.zhihu.com/p/264952744
     's': 'sɹ̩',
     'r': 'ɹɹ̩',
     'H': 'nzɹ̩',
-    'N': 'ŋe',
-    'l': 'ne',
+    'N': 'ŋɯ',
+    'l': 'nɯ',
     'd': 'te',
     't': 'tʰe',
     'g': 'ke',
     'k': 'kʰe',
     'h': 'xe',
-    '4': 'e',
+    '4': 'tɕʰæ̃',
     '5': 'ŋu',
     'v': 'nu',
     'F': 'tu',
@@ -12079,7 +12079,7 @@ xdi82IPA_dict={ # unt https://zhuanlan.zhihu.com/p/264952744
     '3': 'ə̃ʊ̃',
     'V': 'eɪ',
     '1': 'ɯ',
-    'i': 'ji'
+    'i': 'j̈i'
 }
 
 xdi82hanxie_dict = {
