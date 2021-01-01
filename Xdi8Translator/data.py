@@ -13398,7 +13398,8 @@ xdi82ar_dict = {
     'fuV': 'فوْى',
      ',': '،',
     ';': '؛',
-    '?': '؟', }
+    '?': '؟', 
+}
 
 allxdi8=list(set(''.join([k for k in xdi82kana_dict])))
 allxdi8ar=list(set(''.join([k for k in xdi82ar_dict])))
