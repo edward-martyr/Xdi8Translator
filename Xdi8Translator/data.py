@@ -10524,6 +10524,7 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '𬮿': '',
     '𫄨': '',
     '𫢸': '',
+    '燊': '',
     '𬒗': '',
     '𬬩': '',
     '𫘬': '',
@@ -10533,6 +10534,7 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '𬴊': '',
     '𤩽': '',
     '𬯀': '',
+    '牚': '',
     '𬶠': '',
     '𫓶': '',
     '𬞟': 'ypi3',#蘋
@@ -10561,6 +10563,7 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '𬍛': 'vY3',#瓅
     '𫠊': '',
     '𬸦': '',
+    '槱': '',
     '𨭉': '',
     '𪨰': '',
     '𤧛': '',
@@ -10577,7 +10580,6 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '𫟹': '',
     '𬭁': '',
     '𣗋': '',
-    '鿎': '',
     '𦰡': '',
     '𡐓': '',
     '𫄸': '',
