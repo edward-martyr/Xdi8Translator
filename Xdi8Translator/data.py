@@ -10342,7 +10342,7 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '醾': 'mEh4',
     '齇': 'jhiL',
     '觿': '75iem',
-    '诶': 'iNY', #GB/T2312&通规补完计划
+    '诶': 'iNY', #GB/T2312&通规&元素补完计划
     '肀': '',
     '沲': 'toE',
     '臁': 'evi2',
@@ -10395,13 +10395,13 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '丶': '',
     '茇': '',
     '攴': '',
-    '舡': '',
+    '舡': 'qg3',
     '廾': '',
-    '擗': '',
+    '擗': '8pa',
     '𬬮': 'BiTN',#鋹
     '𫠆': '',
     '𦭜': '',
-    '𫘜': '',
+    '𫘜': 'gwi8',
     '𬭸': '',
     '𫑡': '',
     '𫖮': '',
@@ -10426,7 +10426,7 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '𫰛': '',
     '𬸚': '',
     '𬬱': '',
-    '𬭶': '',
+    '𬭶': 'NhE',
     '𬌗': '',
     '𬍡': '',
     '𫓯': '',
@@ -10469,7 +10469,7 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '𫐄': '',
     '𬘩': 'ti8a',#綎
     '𫖳': '',
-    '𫓧': '',
+    '𫓧': 'N4ia',
     '𬶋': '',
     '𫘨': '',
     '𬇹': '',
@@ -10483,7 +10483,7 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '𬟁': '',
     '𬬿': '',
     '𬷕': '',
-    '𬭊': '',
+    '𬭊': 'NdiAc',
     '𫞩': '',
     '𬶏': '',
     '𬙋': '',
@@ -10506,7 +10506,7 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '𬱖': '',
     '𬩽': '',
     '𬜬': '',
-    '𬭛': '',
+    '𬭛': 'NEbio',
     '𬭤': 'Nhi6',#鍭
     '𬸪': '',
     '𨺙': '',
@@ -10516,7 +10516,7 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '𨱇': '',
     '𫍯': '',
     '𦒍': '',
-    '𫟼': '',
+    '𫟼': 'Nzdia',
     '𣲗': '',
     '𫟅': '',
     '𫫇': '4oo',#噁
@@ -10549,8 +10549,8 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '𫟦': '',
     '𫶇': 'wdiY',#嵽
     '𫗧': '',
-    '𬬭': '',
-    '𬬻': '',
+    '𬬭': 'Nv8',
+    '𬬻': 'Nva',#元素周期表（希顶） https://www.bilibili.com/video/BV1zV411b7wA
     '𬇙': '',
     '𬊤': '',
     '𬸣': '',
@@ -10568,7 +10568,7 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '𫛭': '',
     '𬤊': 'isE',#諟
     '𬬹': '',
-    '𬭳': '',
+    '𬭳': 'N5o',
     '𥕢': '',
     '𫐐': '',
     '𫚖': '',
@@ -10591,6 +10591,11 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '𬶭': '',
     '𨱏': '',
     '𨐈': '',
+    '鿔': 'Nge',
+    '鿭': 'Nnu8',
+    '𫟷': 'viYN',
+    '鿬': 'stie',
+    '鿫': '64L',
 }
 
 tidai2xdi8_dict={
