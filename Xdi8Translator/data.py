@@ -3068,7 +3068,7 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '汀': 'ti8E', 
     '聴': 'ti8T', 
     '廰': 'ti85', 
-    '綎': 'ti8a', 
+    '綎': 'ati8', #《对照表》作ti8a，黄厘定
     '同': 't3', 
     '铜': 'Nt3', 
     '桐': 'ct3', 
@@ -10464,11 +10464,11 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '𬭚': 'B3N',#錞
     '𬣳': 'h8i',#《候补表》作ig8读音有误，从詪类推
     '𬶟': 'HueB',
-    '𩾌': 'BkiT',#《候补表》作kiTB，此处从鱇
+    '𩾌': 'BkiT',#《候补表》作kiTB，黄厘定
     '𬴃': 'gh1',
     '𬺈': 'jNi6',
     '𫐄': 'wiYq',
-    '𬘩': 'ti8a',#《候补表》作ati8，此处从綎
+    '𬘩': 'ati8',
     '𫖳': 'rju8',
     '𫓧': 'N4ia',
     '𬶋': 'Bgi6',
