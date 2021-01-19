@@ -10393,7 +10393,7 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '疒': 'tH',
     '膣': 'fHYe',
     '疋': 'Hd2',
-    '肜': 'ayue',
+    '肜': 'ciee',
     '丶': 'Hka',
     '茇': 'ybia',
     '攴': 'piAH',
