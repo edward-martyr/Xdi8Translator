@@ -1,5 +1,6 @@
 from .data import *
 from jieba import lcut
+import re
 
 class Translator():
     def hanzi2xdi8(self, text, fenci=True):
@@ -77,3 +78,13 @@ class Translator():
                 tmp+=text[start]
                 text=text[1:]
         return tmp
+
+    def xdi82hanzi(self, text):
+        xdi8words = [(i.span(),i.group()) for i in re.finditer("[0-9a-zA-Z]{1,}",text)]
+        hanzvalues = list(hanzi2xdi8_dict.values())
+        hanzkeys = list(hanzi2xdi8_dict.keys())
+        for result in xdi8words[::-1]:
+            if result[1] in hanzvalues:
+                char=hanzkeys[hanzvalues.index(result[1])]
+                text=text[:result[0][0]]+char+text[result[0][1]:]
+        return text
