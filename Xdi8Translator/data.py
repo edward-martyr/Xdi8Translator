@@ -4736,7 +4736,7 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '化': 'fia',
     '花': 'yfia',
     '錵': 'Nfia',
-    '椛': 'cfia',
+    '椛': 'yfiac', #原作cfia，为便于与“杹”区分，建议改为yfiac
     '撶': '8fa',
     '滑': 'fiaE',
     '磆': 'fias',
