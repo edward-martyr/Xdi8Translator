@@ -1916,7 +1916,7 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '啉': 'li8o', 
     '菻': 'li8y', 
     '临': 'y2b', 
-    '冧': 'fli8', 
+    '冧': 'li8f', #原作fli8，鉴于“林”声旁部首在后，改为li8f更合适
     '赁': 'xru8', 
     '晽': 'li8b', 
     '焚': 'li8x', 
@@ -1946,7 +1946,7 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '菌': 'li3y', 
     '雷': 'lV', 
     '蕾': 'ylV', 
-    '镭': 'BlV', 
+    '镭': 'NlV', #字表作BlV，应为笔误
     '擂': '8lV', 
     '檑': 'clV', 
     '靁': '4lV', 
@@ -4736,7 +4736,7 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '化': 'fia', 
     '花': 'yfia', 
     '錵': 'Nfia', 
-    '椛': 'cfia', 
+    '椛': 'cfia', #为便于与“杹”区分，建议改为yfiac
     '撶': '8fa', 
     '滑': 'fiaE', 
     '磆': 'fias', 
@@ -8272,7 +8272,7 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '啜': 'oDuo', 
     '辍': 'qDuo', 
     '涰': 'EDuo', 
-    '歠': 'rDuo', 
+    '歠': 'r4Duo', #原作rDuo，为便于与“敠”区分，建议调整
     '缀': 'aDuo', 
     '惙': 'YDuo', 
     '餟': 'LDuo', 
