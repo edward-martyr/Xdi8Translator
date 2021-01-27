@@ -2283,9 +2283,9 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '翟': 'd1',
     '戳': 'ld1',
     '嚁': 'od1',
-    '狄': 'dis',
-    '唙': 'odis',
-    '荻': 'ydis',
+    '狄': 'd1s', #原作 dis，有误
+    '唙': 'od1s', #原作 dis，有误
+    '荻': 'yd1s', #原作 dis，有误
     '代': 'dY',
     '贷': 'xdY',
     '袋': 'udY',
@@ -2636,7 +2636,7 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '宝': 'fFY',
     '钰': 'NFY',
     '祤': 'Fau',
-    '待': 'FY1',
+    '待': 'FYV', # 原作FY1，有误
     '等': 'FY2',
     '戥': 'lx8',
     '戴': 'FiY',
@@ -2865,8 +2865,8 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '踢': 'tED',
     '惖': 'tEF',
     '自': 't1',
-    '私': 'tish',
-    '厶': 'tis',
+    '私': 't1sh', # 原作tish，有误
+    '厶': 't1s',  # 原作tis，有误
     '土': 'tA',
     '吐': 'otA',
     '钍': 'NtA',
@@ -2932,7 +2932,7 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '匋': 'tLH',
     '绦': 'atiL',
     '条': 'tiL',
-    '悐': 'Fdis',
+    '悐': 'Fd1s', #原作 dis，有误
     '涤': 'EtiL',
     '條': 'VtiL',
     '樤': 'ctiL',
@@ -3154,7 +3154,7 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '脮': 'etio',
     '俀': 'Vtio',
     '弋': '7e',
-    '逖': 'zdis',
+    '逖': 'zd1s', #原作 dis，有误
     '腆': '7ee',
     '唺': '7eo',
     '倎': '7eV',
@@ -5060,7 +5060,7 @@ hanzi2xdi8_dict={ # 黄雀飞 https://zhuanlan.zhihu.com/p/263034906 https://zhu
     '狒': 'fVv',
     '昲': 'fVb',
     '曊': 'fVbx',
-    '废': 'Bpio',
+    '废': '5pio', # 原作Bpio，有误
     '沸': 'fVE',
     '疿': 'fVt',
     '回': 'fiV',
