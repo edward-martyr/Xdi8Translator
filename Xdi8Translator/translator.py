@@ -25,7 +25,7 @@ class Translator():
         return text
 
     def xdi8fenci(self, text):
-        jieba.load_userdict('xdi8words.txt')
+        jieba.load_userdict('wordfreq.txt')
         text = text.replace(' ', '')
         ltext = lcut(text)
         segments = []
