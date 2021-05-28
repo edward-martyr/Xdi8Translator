@@ -55,7 +55,7 @@ class Translator():
             # if mode == 'fenci':
             jieba.load_userdict('charfreq.txt')
             ltext = lcut(text)
-            print(ltext)
+            # print(ltext)
             res = []
             for xdi8 in ltext:
                 s = xdi8
