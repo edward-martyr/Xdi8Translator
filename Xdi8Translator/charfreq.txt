@@ -397,7 +397,7 @@ li6E 107397 n
 be 107114 n
 bi8 106982 n
 li2 106814 n
-diLo 106379 n
+diLi 106379 n
 7i2E 105924 n
 ciTH 105406 n
 su2 105293 n
@@ -1643,7 +1643,7 @@ Eyu3 11228 n
 xuaq 11213 n
 Ddio 11201 n
 j3H 11192 n
-HuLu 11172 n
+HuLa 11172 n
 Fia2 11164 n
 wieH 11161 n
 wi6 11154 n
