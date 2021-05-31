@@ -5,3 +5,8 @@ Xdi8Translator.egg-info
 /Xdi8Translator/test.py
 /Xdi8Translator/chardic.txt
 /Xdi8Translator/build_dict.py
+/Xdi8Translator/wordfreq_tab.txt
+/Xdi8Translator/字母词.txt
+/Xdi8Translator/makedict.py
+/Xdi8Translator/addchars.py
+/Xdi8Translator/同音字表.txt
