@@ -2521,7 +2521,7 @@ ED2 3647 n
 ti6 3640 n
 zja 3637 n
 h2 3636 n
-okL 3635 n
+kLo 3635 n
 f6 3627 n
 yYH 3626 n
 ique 3619 n
@@ -4135,7 +4135,7 @@ Nqu6 499 n
 hjEw 498 n
 ged 497 n
 jNo 494 n
-yhieo 493 n
+ohiey 493 n
 HuYq 492 n
 Hu6t 492 n
 Ami2 491 n
