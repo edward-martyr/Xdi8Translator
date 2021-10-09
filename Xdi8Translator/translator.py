@@ -125,3 +125,31 @@ class Translator():
                 tmp+=text[start]
                 text=text[1:]
         return tmp
+
+    def xdi82zhuyin(self, text):
+        text=text.replace('⇧','')
+        for fro, to in xdi82zhuyin_dict.items():
+            text=text.replace(fro,to)
+        return text
+
+    def zhuyin2xdi8(self, text):
+        for fro, to in xdi82zhuyin_dict.items():
+            text=text.replace(to,fro)
+        return text
+
+    def xdi82pinyin(self, text):
+        text=text.replace('⇧','')
+        start=0;end=2
+        tmp=''
+        while len(text) > 0:
+            if text[start] in allxdi8zimu:
+                if text[start:end] in xdi82pinyin_dict  and not end>len(text):
+                    end+=1
+                    continue
+                tmp+=xdi82pinyin_dict[text[start:end-1]]
+                text=text[end-1:]
+                start=0;end=2
+            else:
+                tmp+=text[start]
+                text=text[1:]
+        return tmp
